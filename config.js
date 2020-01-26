@@ -8,7 +8,7 @@ module.exports = {
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: '',
   useKatex: false,
   menu: [
     {
@@ -18,26 +18,22 @@ module.exports = {
     {
       label: 'About me',
       path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
     }
   ],
   author: {
-    name: 'Ari Aparikyan',
+    name: 'isthisfine',
     photo: '/photo.png',
-    bio: 'Musings on software development, life, and everything in between. ',
+    bio: 'Musings on software development, life, and everything in between.',
     contacts: {
       email: 'isthisfine@gmail.com',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      facebook: '',
+      telegram: '',
+      twitter: 'hayd_ari',
+      github: 'ariapar',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'ari-aparikyan',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: '',
