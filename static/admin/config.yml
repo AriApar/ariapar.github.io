@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: ariapar/ariapar.github.io
+  repo: ariapar/ariapar.github.io
 
 media_folder: "static/media"
 public_folder: "/media"
