@@ -1,4 +1,4 @@
-/** 
+/**
  * Generic
  */
 html {
@@ -126,8 +126,26 @@ p {
 
 blockquote {
   padding: 0;
+  width: 80%;
+  color: $color-dark-gray;
   font-style: italic;
   text-align: center;
+}
+
+blockquote p {
+  font-size: 120% !important;
+}
+
+blockquote blockquote p {
+  font-size: 100% !important;
+}
+
+blockquote blockquote {
+  padding: 0;
+  width: 100%;
+  font-style: italic;
+  text-align: left;
+  font-weight: 300;
 }
 
 figure {
