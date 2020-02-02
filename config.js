@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://ariapar.me',
   pathPrefix: '/',
   title: 'Everything is fine.',
   subtitle: 'Musings on software development, life, and everything in between.',
@@ -9,7 +9,7 @@ module.exports = {
   disqusShortname: '',
   postsPerPage: 4,
   googleAnalyticsId: '',
-  useKatex: false,
+  useKatex: true,
   menu: [
     {
       label: 'Articles',
@@ -25,7 +25,7 @@ module.exports = {
     photo: '/photo.jpg',
     bio: 'Musings on software development, life, and everything in between.',
     contacts: {
-      email: 'isthisfine@gmail.com',
+      email: 'isemailfine@gmail.com',
       facebook: '',
       telegram: '',
       twitter: 'hayd_ari',
