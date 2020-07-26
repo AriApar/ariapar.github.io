@@ -5,9 +5,9 @@ slug: information-fraud-why-paying-for-twitter-makes-sense
 draft: false
 date: 2020-07-26T14:56:05.586Z
 description: >-
-  I think a subscription model for Twitter would make sense, and I might pay for
-  it. In fact, I think it would solve the ad-revenue driven misinformation
-  problem, if done correctly. Here's why.
+  A subscription model for Twitter would make sense, and I would pay for it. 
+  In fact, if well-executed, it would solve the ad-revenue driven misinformation problem. 
+  Here's why.
 socialImage: "/media/moran-8cMPxOqkLE8-unsplash.jpg"
 category: Product
 tags:
@@ -15,7 +15,7 @@ tags:
   - Product
 ---
 
-> I think a subscription model for Twitter would make sense, and I might pay for it. In fact, I think it would solve the ad-revenue driven misinformation problem, if done correctly. Here's why.
+> A subscription model for Twitter would make sense, and I would pay for it. In fact, if well-executed, it would solve the ad-revenue driven misinformation problem. Here's why.
 
 <figure>
     <img src="/media/moran-8cMPxOqkLE8-unsplash.jpg"/>
