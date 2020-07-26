@@ -2,18 +2,25 @@
 template: post
 title: 'Information Fraud: Why Paying for Twitter Makes Sense'
 slug: information-fraud-why-paying-for-twitter-makes-sense
-draft: true
+draft: false
 date: 2020-07-26T14:56:05.586Z
 description: >-
-  I think a subscription model for Twitter would make sense, and I might pay for
-  it. In fact, I think it would solve the ad-revenue driven misinformation
-  problem, if done correctly. Here's why.
+  A subscription model for Twitter would make sense, and I would pay for it. 
+  In fact, if well-executed, it would solve the ad-revenue driven misinformation problem. 
+  Here's why.
+socialImage: "/media/moran-8cMPxOqkLE8-unsplash.jpg"
 category: Product
 tags:
   - Opinion
   - Product
 ---
-> I think a subscription model for Twitter would make sense, and I might pay for it. In fact, I think it would solve the ad-revenue driven misinformation problem, if done correctly. Here's why.
+
+> A subscription model for Twitter would make sense, and I would pay for it. In fact, if well-executed, it would solve the ad-revenue driven misinformation problem. Here's why.
+
+<figure>
+    <img src="/media/moran-8cMPxOqkLE8-unsplash.jpg"/>
+    <figcaption>Spin the wheel! Insightful content, or a dose of the dumpster fire.</figcaption>
+</figure>
 
 I work at TransferWise, which is a fintech company. As with any other financial services company, it has to deal with fraud. It's an inherent by-product of a convenient and low-cost way of moving money.
 
@@ -23,7 +30,7 @@ This is very similar to how you would approach security in a product. In fact, a
 
 Since my post-uni applications for an engineering position, I've been thinking about how impactful it would be to solve the misinformation problem Twitter faces, almost as a very infrequent side hobby. So, this blog post simmered in the back of my mind for a little bit, as I thought through it in the context of an "social information" product (which, I define, as any product that provides a way for anyone to publish their thoughts online to an audience, like Twitter or Medium).
 
-Let's consider the case of Twitter. Twitter has had a great product market fit in the market of information fraudsters. A financial fraudster aims to make more money than they invested by abusing a financial product. An information fraudster, aims to accumulate more power by creating an audience it can infuence by means of misinformation. The end goal could be more money, but also could be more election-rigging power.
+Let's consider the case of Twitter. Twitter has had a great product market fit in the market of information fraudsters. A financial fraudster aims to make more money than they invested by abusing a financial product. An information fraudster, aims to accumulate more power by creating an audience it can influence by means of misinformation. The end goal could be more money, but also could be more election-rigging power.
 
 > How do you reach a *terrible* product market fit for information fraudsters, while keeping a *great* product-market fit on the rest of your well-behaved audience?
 
