@@ -2,18 +2,25 @@
 template: post
 title: 'Information Fraud: Why Paying for Twitter Makes Sense'
 slug: information-fraud-why-paying-for-twitter-makes-sense
-draft: true
+draft: false
 date: 2020-07-26T14:56:05.586Z
 description: >-
   I think a subscription model for Twitter would make sense, and I might pay for
   it. In fact, I think it would solve the ad-revenue driven misinformation
   problem, if done correctly. Here's why.
+socialImage: "/media/moran-8cMPxOqkLE8-unsplash.jpg"
 category: Product
 tags:
   - Opinion
   - Product
 ---
+
 > I think a subscription model for Twitter would make sense, and I might pay for it. In fact, I think it would solve the ad-revenue driven misinformation problem, if done correctly. Here's why.
+
+<figure>
+    <img src="/media/moran-8cMPxOqkLE8-unsplash.jpg"/>
+    <figcaption>Spin the wheel! Insightful content, or a dose of the dumpster fire.</figcaption>
+</figure>
 
 I work at TransferWise, which is a fintech company. As with any other financial services company, it has to deal with fraud. It's an inherent by-product of a convenient and low-cost way of moving money.
 
