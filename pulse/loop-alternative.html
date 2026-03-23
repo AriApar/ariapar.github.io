@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best iOS Alternative to Loop Habit Tracker | Pulse</title>
+  <meta name="description" content="Switched from Android to iPhone and miss Loop Habit Tracker? Pulse is the closest iOS alternative — simple, private, with widgets, streaks, flexible goals, and CSV export.">
+  <meta name="keywords" content="loop habit tracker ios, loop habit tracker iphone, loop habit tracker alternative, habit tracker iphone, switch android to iphone habit tracker, uhabits ios">
+  <meta name="author" content="Ari Aparikyan">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#fafaf8">
+
+  <link rel="icon" href="icon-small.png">
+  <link rel="apple-touch-icon" href="icon-small.png">
+  <link rel="canonical" href="https://pulsehabit.app/loop-alternative.html">
+
+  <!-- Open Graph -->
+  <meta property="og:url" content="https://pulsehabit.app/loop-alternative.html">
+  <meta property="og:title" content="Pulse - Best iOS Alternative to Loop Habit Tracker">
+  <meta property="og:description" content="Switched from Android to iPhone and miss Loop Habit Tracker? Pulse is the closest iOS alternative.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="icon.png">
+  <meta property="og:site_name" content="Pulse">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Pulse - Best iOS Alternative to Loop Habit Tracker">
+  <meta name="twitter:description" content="Switched from Android to iPhone and miss Loop Habit Tracker? Pulse is the closest iOS alternative.">
+  <meta name="twitter:image" content="icon.png">
+
+  <!-- FAQ Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What's the best habit tracker for iPhone?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pulse is built specifically for iPhone with a focus on simplicity and privacy. No account required, no cloud sync, no ads — just habit tracking with Home Screen widgets, streaks, and flexible goals."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "I'm switching from Android to iPhone. What habit tracker should I use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pulse offers the same core experience you'd expect from a great Android habit tracker: simplicity, privacy, and focused tracking. You'll find flexible habit frequencies, Home Screen widgets, streaks, and CSV export."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I import my habit data into Pulse?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pulse supports CSV import, so you can transfer your history from other habit trackers. Some manual formatting of columns may be needed depending on the source app."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --teal: #5bb8a6;
+      --teal-deep: #3d9e8b;
+      --teal-light: #e8f5f2;
+      --ink: #1a1a1a;
+      --ink-soft: #4a4a4a;
+      --ink-muted: #8a8a8a;
+      --bone: #fafaf8;
+      --rule: #e5e3df;
+      --white: #ffffff;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+    body {
+      font-family: 'DM Sans', -apple-system, sans-serif;
+      background: var(--bone);
+      color: var(--ink);
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* --- NAV --- */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      padding: 18px 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(250, 250, 248, 0.8);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(0,0,0,0.04);
+    }
+
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--ink);
+    }
+
+    .nav-brand img { width: 32px; height: 32px; border-radius: 8px; }
+    .nav-brand span { font-weight: 600; font-size: 17px; letter-spacing: -0.02em; }
+
+    .nav-links { display: flex; gap: 32px; align-items: center; }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--ink-soft);
+      font-size: 14px;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--ink); }
+
+    .nav-cta {
+      background: var(--ink) !important;
+      color: var(--bone) !important;
+      padding: 8px 20px;
+      border-radius: 100px;
+      font-size: 14px !important;
+      transition: opacity 0.2s !important;
+    }
+
+    .nav-cta:hover { opacity: 0.85; }
+
+    /* --- HERO --- */
+    .hero {
+      padding: 140px 24px 80px;
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 16px;
+      background: var(--white);
+      border: 1px solid var(--rule);
+      border-radius: 100px;
+      font-size: 13px;
+      color: var(--ink-soft);
+      margin-bottom: 32px;
+      animation: fadeUp 0.8s ease both;
+    }
+
+    .hero h1 {
+      font-family: 'Instrument Serif', serif;
+      font-size: clamp(36px, 6vw, 64px);
+      font-weight: 400;
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+      animation: fadeUp 0.8s ease 0.1s both;
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: var(--teal-deep);
+    }
+
+    .hero-sub {
+      font-size: 18px;
+      color: var(--ink-soft);
+      max-width: 540px;
+      margin: 24px auto 0;
+      line-height: 1.65;
+      animation: fadeUp 0.8s ease 0.2s both;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      margin-top: 40px;
+      animation: fadeUp 0.8s ease 0.3s both;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--ink);
+      color: var(--bone);
+      padding: 16px 32px;
+      border-radius: 100px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 500;
+      transition: all 0.25s ease;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+    }
+
+    .btn-primary svg { width: 18px; height: 18px; }
+
+    /* --- COMPARISON TABLE --- */
+    .comparison {
+      padding: 60px 24px 100px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .comparison h2 {
+      font-family: 'Instrument Serif', serif;
+      font-size: clamp(32px, 4vw, 48px);
+      font-weight: 400;
+      letter-spacing: -0.03em;
+      text-align: center;
+      margin-bottom: 48px;
+      line-height: 1.15;
+    }
+
+    .comparison-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      background: var(--white);
+      border-radius: 20px;
+      border: 1px solid var(--rule);
+      overflow: hidden;
+    }
+
+    .comparison-table thead th {
+      padding: 20px 24px;
+      font-size: 15px;
+      font-weight: 600;
+      text-align: left;
+      border-bottom: 1px solid var(--rule);
+      background: var(--bone);
+    }
+
+    .comparison-table thead th:first-child {
+      width: 40%;
+    }
+
+    .comparison-table thead th:not(:first-child) {
+      text-align: center;
+      width: 30%;
+    }
+
+    .comparison-table tbody td {
+      padding: 16px 24px;
+      font-size: 15px;
+      border-bottom: 1px solid var(--rule);
+      color: var(--ink-soft);
+    }
+
+    .comparison-table tbody td:not(:first-child) {
+      text-align: center;
+    }
+
+    .comparison-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    .comparison-table .feature-name {
+      font-weight: 500;
+      color: var(--ink);
+    }
+
+    .check {
+      color: var(--teal-deep);
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .cross {
+      color: var(--ink-muted);
+      font-size: 14px;
+    }
+
+    .highlight-col {
+      background: var(--teal-light);
+    }
+
+    .comparison-table thead th.highlight-col {
+      background: var(--teal-light);
+      color: var(--teal-deep);
+    }
+
+    /* --- SHARED VALUES --- */
+    .shared {
+      padding: 80px 24px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .shared h2 {
+      font-family: 'Instrument Serif', serif;
+      font-size: clamp(28px, 4vw, 40px);
+      font-weight: 400;
+      letter-spacing: -0.03em;
+      text-align: center;
+      margin-bottom: 48px;
+      line-height: 1.15;
+    }
+
+    .shared-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+
+    .shared-card {
+      background: var(--white);
+      border: 1px solid var(--rule);
+      border-radius: 16px;
+      padding: 28px 24px;
+      transition: all 0.3s ease;
+    }
+
+    .shared-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.05);
+      border-color: transparent;
+    }
+
+    .shared-card h3 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      letter-spacing: -0.01em;
+    }
+
+    .shared-card p {
+      font-size: 14px;
+      color: var(--ink-soft);
+      line-height: 1.55;
+    }
+
+    /* --- FAQ --- */
+    .faq {
+      padding: 80px 24px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .faq h2 {
+      font-family: 'Instrument Serif', serif;
+      font-size: clamp(28px, 4vw, 40px);
+      font-weight: 400;
+      letter-spacing: -0.03em;
+      text-align: center;
+      margin-bottom: 48px;
+      line-height: 1.15;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid var(--rule);
+      padding: 24px 0;
+    }
+
+    .faq-item:first-child {
+      border-top: 1px solid var(--rule);
+    }
+
+    .faq-item h3 {
+      font-size: 17px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    .faq-item p {
+      font-size: 15px;
+      color: var(--ink-soft);
+      line-height: 1.65;
+    }
+
+    .faq-item a {
+      color: var(--teal-deep);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .faq-item a:hover { text-decoration: underline; }
+
+    /* --- CTA --- */
+    .cta-section {
+      padding: 80px 24px 100px;
+      text-align: center;
+    }
+
+    .cta-section h2 {
+      font-family: 'Instrument Serif', serif;
+      font-size: clamp(32px, 4vw, 48px);
+      font-weight: 400;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin-bottom: 16px;
+    }
+
+    .cta-section p {
+      font-size: 17px;
+      color: var(--ink-soft);
+      margin-bottom: 40px;
+    }
+
+    /* --- FOOTER --- */
+    footer {
+      padding: 40px 32px;
+      border-top: 1px solid var(--rule);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .footer-left { font-size: 13px; color: var(--ink-muted); }
+
+    .footer-links { display: flex; gap: 24px; }
+
+    .footer-links a {
+      font-size: 13px;
+      color: var(--ink-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover { color: var(--ink); }
+
+    /* --- ANIMATIONS --- */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* --- RESPONSIVE --- */
+    @media (max-width: 768px) {
+      nav { padding: 14px 20px; }
+      .nav-links { display: none; }
+      .hero { padding: 100px 20px 60px; }
+      .hero-actions { flex-direction: column; align-items: center; }
+
+      .shared-grid { grid-template-columns: 1fr; }
+
+      .comparison-table { font-size: 14px; }
+      .comparison-table thead th,
+      .comparison-table tbody td { padding: 12px 14px; }
+
+      footer {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="./" class="nav-brand">
+      <img src="icon-small.png" alt="Pulse app icon" width="32" height="32">
+      <span>Pulse</span>
+    </a>
+    <div class="nav-links">
+      <a href="./">Home</a>
+      <a href="./#features">Features</a>
+      <a href="https://apps.apple.com/app/id6758529531" class="nav-cta">Download</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-badge">Android &rarr; iPhone</div>
+    <h1>Miss Loop on <em>iPhone?</em></h1>
+    <p class="hero-sub">Loop Habit Tracker is one of the best habit apps on Android — but it's not available on iOS. Pulse is a great alternative: simple, private, and focused on what matters.</p>
+    <div class="hero-actions">
+      <a href="https://apps.apple.com/app/id6758529531" class="btn-primary">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 21.99 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.1 21.99C7.79 22.03 6.8 20.68 5.96 19.47C4.25 16.97 2.94 12.45 4.7 9.39C5.57 7.87 7.13 6.91 8.82 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/></svg>
+        Try Pulse free
+      </a>
+    </div>
+  </section>
+
+  <!-- COMPARISON TABLE -->
+  <section class="comparison reveal">
+    <h2>How Pulse compares to Loop</h2>
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>Loop</th>
+          <th class="highlight-col">Pulse</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="feature-name">iPhone &amp; iOS support</td>
+          <td><span class="cross">Android only</span></td>
+          <td class="highlight-col"><span class="check">&checkmark;</span></td>
+        </tr>
+        <tr>
+          <td class="feature-name">Home Screen widgets</td>
+          <td><span class="check">&checkmark;</span></td>
+          <td class="highlight-col"><span class="check">&checkmark;</span></td>
+        </tr>
+        <tr>
+          <td class="feature-name">Daily, weekly, monthly habits</td>
+          <td><span class="check">&checkmark;</span></td>
+          <td class="highlight-col"><span class="check">&checkmark;</span></td>
+        </tr>
+        <tr>
+          <td class="feature-name">Streaks &amp; statistics</td>
+          <td><span class="check">&checkmark;</span></td>
+          <td class="highlight-col"><span class="check">&checkmark;</span></td>
+        </tr>
+        <tr>
+          <td class="feature-name">Charts &amp; history</td>
+          <td><span class="check">&checkmark;</span></td>
+          <td class="highlight-col"><span class="check">&checkmark;</span></td>
+        </tr>
+        <tr>
+          <td class="feature-name">Reminders</td>
+          <td><span class="check">&checkmark;</span></td>
+          <td class="highlight-col"><span class="check">&checkmark;</span></td>
+        </tr>
+        <tr>
+          <td class="feature-name">CSV export</td>
+          <td><span class="check">&checkmark;</span></td>
+          <td class="highlight-col"><span class="check">&checkmark;</span></td>
+        </tr>
+        <tr>
+          <td class="feature-name">No account required</td>
+          <td><span class="check">&checkmark;</span></td>
+          <td class="highlight-col"><span class="check">&checkmark;</span></td>
+        </tr>
+        <tr>
+          <td class="feature-name">All data stays on device</td>
+          <td><span class="check">&checkmark;</span></td>
+          <td class="highlight-col"><span class="check">&checkmark;</span></td>
+        </tr>
+        <tr>
+          <td class="feature-name">No ads</td>
+          <td><span class="check">&checkmark;</span></td>
+          <td class="highlight-col"><span class="check">&checkmark;</span></td>
+        </tr>
+        <tr>
+          <td class="feature-name">Interactive widgets</td>
+          <td><span class="check">&checkmark;</span></td>
+          <td class="highlight-col"><span class="check">&checkmark;</span></td>
+        </tr>
+        <tr>
+          <td class="feature-name">Price</td>
+          <td>Free</td>
+          <td class="highlight-col">Free trial</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- SHARED VALUES -->
+  <section class="shared reveal">
+    <h2>What users love about Pulse</h2>
+    <div class="shared-grid">
+      <div class="shared-card">
+        <h3>No bloat</h3>
+        <p>Pulse does one thing well. No social features, no gamification, no journals — just habit tracking.</p>
+      </div>
+      <div class="shared-card">
+        <h3>Real privacy</h3>
+        <p>No accounts, no cloud, no analytics. Your data never leaves your phone.</p>
+      </div>
+      <div class="shared-card">
+        <h3>Tap-to-complete widgets</h3>
+        <p>Check off habits directly from your Home Screen without opening the app.</p>
+      </div>
+      <div class="shared-card">
+        <h3>Flexible goals</h3>
+        <p>Daily habits, 3 times a week, specific days, monthly targets — set goals that match your life.</p>
+      </div>
+      <div class="shared-card">
+        <h3>Statistics that help</h3>
+        <p>Completion rates, streaks, and charts so you can see what's working. Clean and simple, not overwhelming.</p>
+      </div>
+      <div class="shared-card">
+        <h3>Export your data</h3>
+        <p>Full CSV export. Your data is yours. Import from backup anytime.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq reveal">
+    <h2>Common questions</h2>
+
+    <div class="faq-item">
+      <h3>What's the best habit tracker for iPhone?</h3>
+      <p>Pulse is built specifically for iPhone with a focus on simplicity and privacy. No account required, no cloud sync, no ads — just habit tracking with Home Screen widgets, streaks, and flexible goals.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>I'm switching from Android to iPhone. What should I use?</h3>
+      <p>Pulse offers the same core experience you'd expect from a great Android habit tracker: simplicity, privacy, and focused tracking. You'll find flexible habit frequencies, Home Screen widgets, streaks, and CSV export.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Can I import my habit data into Pulse?</h3>
+      <p>Pulse supports CSV import, so you can transfer your history from other habit trackers. Some manual formatting of columns may be needed depending on the source app.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Is Pulse free?</h3>
+      <p>Pulse offers a free trial so you can try everything before deciding. After the trial, a subscription unlocks all features. No tiers, no upsells, no ads.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Why isn't Pulse open source?</h3>
+      <p>Pulse is independently developed. The subscription model supports ongoing development and keeps the app ad-free with no data collection. You still own all your data and can export it anytime.</p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section reveal">
+    <h2>Ready to keep your<br>habits going on <em style="font-family: 'Instrument Serif', serif; font-style: italic; color: var(--teal-deep);">iPhone?</em></h2>
+    <p>Free trial. No account required.</p>
+    <a href="https://apps.apple.com/app/id6758529531" class="btn-primary">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 21.99 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.1 21.99C7.79 22.03 6.8 20.68 5.96 19.47C4.25 16.97 2.94 12.45 4.7 9.39C5.57 7.87 7.13 6.91 8.82 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/></svg>
+      Download Pulse for iPhone
+    </a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-left">&copy; 2026 Pulse</div>
+    <div class="footer-links">
+      <a href="./">Home</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://apps.apple.com/app/id6758529531">App Store</a>
+    </div>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
