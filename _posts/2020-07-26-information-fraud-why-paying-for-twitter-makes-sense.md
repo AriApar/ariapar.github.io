@@ -10,7 +10,7 @@ description: "A subscription model for Twitter would make sense, and I would pay
 > A subscription model for Twitter would make sense, and I would pay for it. In fact, if well-executed, it would solve the ad-revenue driven misinformation problem. Here's why.
 
 <figure>
-    <img src="/assets/img/posts/moran-8cMPxOqkLE8-unsplash.jpg"/>
+    <img src="/assets/img/posts/moran-8cMPxOqkLE8-unsplash.jpg" alt="Spinning wheel"/>
     <figcaption>Spin the wheel! Insightful content, or a dose of the dumpster fire.</figcaption>
 </figure>
 

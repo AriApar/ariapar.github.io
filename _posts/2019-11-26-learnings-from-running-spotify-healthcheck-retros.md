@@ -12,7 +12,7 @@ description: "A better way to do retrospectives."
 Although Spotify [Squad Health Check](https://labs.spotify.com/2014/09/16/squad-health-check-model/) has been out there for 5 years, I only read about it around a year ago. I was just getting into the whole support structure around autonomous teams, and found it — along with the idea of [Chapters and Tribes](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf) — fascinating. Lucky for me, rest of my team was also very open to trying out the new retro format, so I got the chance to run it a few times.
 
 <figure>
-    <img src="/assets/img/posts/squad-health-check-model-overview.png"/>
+    <img src="/assets/img/posts/squad-health-check-model-overview.png" alt="Spotify Health Check overview"/>
     <figcaption>Spotify Health Check in a nutshell</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ The blog post on healthcheck seems to focus on the traffic lights and how to dec
 This didn't feel complete to me. The focus on color consensus felt a lot more about _reporting_ than it felt about helping the team get better. To understand the team's worries, I decided to use the colors as a means to the end, and evolve the session more into a **retrospective**.
 
 <figure>
-    <img src="https://miro.medium.com/proxy/0*2GDBl_Q1FdR93maj"/>
+    <img src="https://miro.medium.com/proxy/0*2GDBl_Q1FdR93maj" alt="Traffic light colors"/>
     <figcaption>Great, but why red?</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ Although the session is over within those 2 hours, the retro isn't really over u
 As a last step, we use checkpoints and other retros to revisit the action points, check our progress towards a healthier team, and iterate.
 
 <figure>
-    <img src="/assets/img/posts/happy-faces.jpg"/>
+    <img src="/assets/img/posts/happy-faces.jpg" alt="Happy faces"/>
     <figcaption>Look at all these happy faces.</figcaption>
 </figure>
 

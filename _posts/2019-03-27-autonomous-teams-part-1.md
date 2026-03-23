@@ -14,8 +14,8 @@ Autonomous teams (or two pizza teams, as popularised by Jeff Bezos) have become 
 The above is nothing new, it's been the general advice for a long time. So you decide to build your startup following this recipe for success, just like all the others.
 
 <figure>
-    <img src="/assets/img/posts/ravioli.jpg"/>
-    <figcaption>Your team at the beginning. <a href="http://www.theglutenfreegourmet.co.uk/wp-content/uploads/2016/12/161230-Gluten-Free-Ravioli-3917.jpg">Delicious.</a></figcaption>
+    <img src="/assets/img/posts/ravioli.jpg" alt="Ravioli neatly arranged"/>
+    <figcaption>Your team at the beginning. Delicious.</figcaption>
 </figure>
 
 Fast-forward 5 years. You've now established your share in the market (hell, maybe you're a unicorn, in which case, congrats!). Your team of 2 is now your team of 500, within 60 teams, in 2–3 different locations. Suddenly there's a bit of chaos everywhere. Tech debt has racked up, you know you need to address it somehow, but no team wants to own it. Some areas of your product have fallen through the cracks of teams switching focus, and are now unowned. Those 60 teams all have their own visions on what will have the most customer impact. Most of those projects require help from, or touch parts owned by, other teams, who all have different priorities.
@@ -23,7 +23,7 @@ Fast-forward 5 years. You've now established your share in the market (hell, may
 You thought autonomous teams would never hit any of these issues, and yet here you are, scratching your head.
 
 <figure>
-    <img src="/assets/img/posts/spaghetti.jpg"/>
+    <img src="/assets/img/posts/spaghetti.jpg" alt="Tangled spaghetti"/>
     <figcaption>Your team now. <a href="https://cacm.acm.org/system/assets/0003/2596/092018_CACMpg27_The-Obscene-Coupling.large.jpg?1537466263&1537466263">Needs some sauce.</a></figcaption>
 </figure>
 
