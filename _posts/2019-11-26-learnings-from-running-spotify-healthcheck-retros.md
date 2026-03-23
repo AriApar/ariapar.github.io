@@ -5,7 +5,6 @@ date: 2019-11-26 18:40:00 +0000
 categories: [Software Engineering]
 tags: [software-engineering]
 description: "A better way to do retrospectives."
-image: /assets/img/posts/squad-health-check-model-overview.png
 ---
 
 > A better way to do retrospectives.

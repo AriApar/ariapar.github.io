@@ -5,7 +5,6 @@ date: 2020-07-26 14:56:00 +0000
 categories: [Product]
 tags: [opinion, product]
 description: "A subscription model for Twitter would make sense, and I would pay for it. In fact, if well-executed, it would solve the ad-revenue driven misinformation problem. Here's why."
-image: /assets/img/posts/moran-8cMPxOqkLE8-unsplash.jpg
 ---
 
 > A subscription model for Twitter would make sense, and I would pay for it. In fact, if well-executed, it would solve the ad-revenue driven misinformation problem. Here's why.

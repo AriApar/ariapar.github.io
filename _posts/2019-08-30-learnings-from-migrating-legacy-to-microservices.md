@@ -5,7 +5,6 @@ date: 2019-08-30 18:40:00 +0000
 categories: [Software Engineering]
 tags: [software-engineering]
 description: "Distilling the last 2 years into one post."
-image: /assets/img/posts/strangler.jpg
 ---
 
 > Distilling the last 2 years into one post

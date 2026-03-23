@@ -5,7 +5,6 @@ date: 2019-03-27 18:40:00 +0000
 categories: [Software Engineering]
 tags: [software-engineering, agile]
 description: "Verdict: They're initially fine, but they won't scale fine if you're not careful."
-image: /assets/img/posts/ravioli.jpg
 ---
 
 > Verdict: They're initially fine, but they won't scale fine if you're not careful.
