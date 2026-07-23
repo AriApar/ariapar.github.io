@@ -1,0 +1,115 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+.home-apps {
+  margin-bottom: 2.5rem;
+}
+
+.home-apps__header {
+  margin-bottom: 1.25rem;
+}
+
+.home-apps__eyebrow {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted-color);
+}
+
+.home-apps__title {
+  margin-bottom: 0.5rem;
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  line-height: 1.1;
+}
+
+.home-apps__intro {
+  max-width: 42rem;
+  margin-bottom: 0;
+  color: var(--text-muted-color);
+}
+
+.home-apps__grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.home-app-card {
+  border: 1px solid var(--main-border-color);
+  border-radius: 1.25rem;
+  background:
+    radial-gradient(circle at top right, rgba(120, 120, 120, 0.08), transparent 35%),
+    var(--card-bg);
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+}
+
+.home-app-card__link {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  padding: 1.25rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.home-app-card__link:hover {
+  text-decoration: none;
+}
+
+.home-app-card__icon-wrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.home-app-card__icon {
+  border-radius: 1rem;
+  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.12);
+}
+
+.home-app-card__meta {
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--heading-color);
+}
+
+.home-app-card__title {
+  margin-bottom: 0.45rem;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.home-app-card__copy {
+  margin-bottom: 0.85rem;
+  color: var(--text-muted-color);
+}
+
+.home-app-card__cta {
+  font-weight: 700;
+  color: var(--link-color);
+}
+
+@media (min-width: 768px) {
+  .home-apps__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 576px) {
+  .home-app-card__link {
+    grid-template-columns: 1fr;
+  }
+}
