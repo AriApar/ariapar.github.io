@@ -49,7 +49,6 @@ layout: default
 <section class="home-apps">
   <div class="home-apps__header">
     <span class="home-apps__eyebrow">Apps</span>
-    <h1 class="home-apps__title">Ari's iPhone apps</h1>
     <p class="home-apps__intro">
       Two focused iPhone apps: one for scheduled blocking, one for habit tracking.
     </p>
@@ -63,8 +62,8 @@ layout: default
             class="home-app-card__icon"
             src="{{ '/downtime/assets/app-icon.svg' | relative_url }}"
             alt="Downtime app icon"
-            width="72"
-            height="72"
+            width="56"
+            height="56"
           >
         </div>
         <div class="home-app-card__content">
@@ -85,8 +84,8 @@ layout: default
             class="home-app-card__icon"
             src="{{ '/pulse/icon-small.png' | relative_url }}"
             alt="Pulse app icon"
-            width="72"
-            height="72"
+            width="56"
+            height="56"
           >
         </div>
         <div class="home-app-card__content">
@@ -101,6 +100,8 @@ layout: default
     </article>
   </div>
 </section>
+
+<h2 class="home-posts__title">Blog</h2>
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in posts %}
