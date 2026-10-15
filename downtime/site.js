@@ -27,3 +27,21 @@ function openLinkedAnswer() {
 }
 openLinkedAnswer();
 window.addEventListener("hashchange", openLinkedAnswer);
+
+// Keep an ad campaign’s custom product page through the download journey.
+const customProductPageID = new URLSearchParams(location.search).get("ppid");
+if (customProductPageID) {
+  for (const link of document.querySelectorAll("a[href]")) {
+    const destination = new URL(link.href);
+    const isDowntimeDownload = destination.protocol === "https:"
+      && destination.hostname === "apps.apple.com"
+      && /\/id6760601177\/?$/.test(destination.pathname);
+    const isDowntimePage = destination.origin === location.origin
+      && (destination.pathname === "/downtime" || destination.pathname.startsWith("/downtime/"));
+
+    if (isDowntimeDownload || isDowntimePage) {
+      destination.searchParams.set("ppid", customProductPageID);
+      link.href = destination.href;
+    }
+  }
+}
