@@ -298,3 +298,22 @@ h1 em { color: var(--interactive); font-weight: 400; }
 @media (max-width: 650px) {
   .download-qr { display: none; }
 }
+
+/* German copy keeps the same layout while allowing longer words to wrap. */
+html[lang="de"] .hero h1 { font-size: clamp(52px, 6.3vw, 84px); }
+html[lang="de"] .hero h1 em { display: block; }
+html[lang="de"] h2 { font-size: clamp(36px, 4vw, 54px); }
+html[lang="de"] h3, html[lang="de"] .comparison-table th { overflow-wrap: anywhere; }
+html[lang="de"] .feature-layout { gap: 72px; }
+@media (max-width: 1050px) {
+  html[lang="de"] .feature-layout { gap: 40px; }
+}
+@media (max-width: 650px) {
+  html[lang="de"] .hero h1 { font-size: clamp(46px, 11.5vw, 64px); }
+  html[lang="de"] h2 { font-size: 40px; }
+  html[lang="de"] .feature-layout { gap: 30px; }
+}
+
+html[lang="de"] .privacy-page { overflow-wrap: break-word; }
+html[lang="de"] .privacy-page h1 { font-size: clamp(40px, 6vw, 64px); overflow-wrap: anywhere; hyphens: auto; }
+html[lang="de"] .privacy-page h2 { font-size: 20px; }

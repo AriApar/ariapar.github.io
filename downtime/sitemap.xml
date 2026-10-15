@@ -1,48 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ariapar.me/downtime/</loc>
-    <lastmod>2026-10-15</lastmod>
-    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariapar.me/downtime/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ariapar.me/downtime/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariapar.me/downtime/"/>
   </url>
   <url>
-    <loc>https://ariapar.me/downtime/block-instagram-on-iphone.html</loc>
-    <lastmod>2026-10-15</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ariapar.me/downtime/block-tiktok-on-iphone.html</loc>
-    <lastmod>2026-10-15</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ariapar.me/downtime/block-youtube-on-iphone.html</loc>
-    <lastmod>2026-10-15</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ariapar.me/downtime/block-reddit-on-iphone.html</loc>
-    <lastmod>2026-10-15</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ariapar.me/downtime/website-blocker-iphone.html</loc>
-    <lastmod>2026-10-15</lastmod>
-    <priority>0.8</priority>
+    <loc>https://ariapar.me/downtime/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariapar.me/downtime/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ariapar.me/downtime/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariapar.me/downtime/"/>
   </url>
   <url>
     <loc>https://ariapar.me/downtime/faq.html</loc>
-    <lastmod>2026-10-15</lastmod>
-    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariapar.me/downtime/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ariapar.me/downtime/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariapar.me/downtime/faq.html"/>
   </url>
   <url>
-    <loc>https://ariapar.me/downtime/privacy.html</loc>
-    <lastmod>2026-10-15</lastmod>
-    <priority>0.5</priority>
+    <loc>https://ariapar.me/downtime/de/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariapar.me/downtime/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ariapar.me/downtime/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariapar.me/downtime/faq.html"/>
   </url>
   <url>
     <loc>https://ariapar.me/downtime/contact.html</loc>
-    <lastmod>2026-10-15</lastmod>
-    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariapar.me/downtime/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ariapar.me/downtime/de/kontakt.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariapar.me/downtime/contact.html"/>
+  </url>
+  <url>
+    <loc>https://ariapar.me/downtime/de/kontakt.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariapar.me/downtime/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ariapar.me/downtime/de/kontakt.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariapar.me/downtime/contact.html"/>
+  </url>
+  <url>
+    <loc>https://ariapar.me/downtime/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariapar.me/downtime/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ariapar.me/downtime/de/datenschutz.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariapar.me/downtime/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://ariapar.me/downtime/de/datenschutz.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariapar.me/downtime/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ariapar.me/downtime/de/datenschutz.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariapar.me/downtime/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://ariapar.me/downtime/block-instagram-on-iphone.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariapar.me/downtime/block-instagram-on-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ariapar.me/downtime/de/instagram-auf-iphone-blockieren.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariapar.me/downtime/block-instagram-on-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://ariapar.me/downtime/de/instagram-auf-iphone-blockieren.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariapar.me/downtime/block-instagram-on-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ariapar.me/downtime/de/instagram-auf-iphone-blockieren.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariapar.me/downtime/block-instagram-on-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://ariapar.me/downtime/block-tiktok-on-iphone.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariapar.me/downtime/block-tiktok-on-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ariapar.me/downtime/de/tiktok-auf-iphone-blockieren.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariapar.me/downtime/block-tiktok-on-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://ariapar.me/downtime/de/tiktok-auf-iphone-blockieren.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariapar.me/downtime/block-tiktok-on-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ariapar.me/downtime/de/tiktok-auf-iphone-blockieren.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariapar.me/downtime/block-tiktok-on-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://ariapar.me/downtime/block-youtube-on-iphone.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariapar.me/downtime/block-youtube-on-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ariapar.me/downtime/de/youtube-auf-iphone-blockieren.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariapar.me/downtime/block-youtube-on-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://ariapar.me/downtime/de/youtube-auf-iphone-blockieren.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariapar.me/downtime/block-youtube-on-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ariapar.me/downtime/de/youtube-auf-iphone-blockieren.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariapar.me/downtime/block-youtube-on-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://ariapar.me/downtime/block-reddit-on-iphone.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariapar.me/downtime/block-reddit-on-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ariapar.me/downtime/de/reddit-auf-iphone-blockieren.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariapar.me/downtime/block-reddit-on-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://ariapar.me/downtime/de/reddit-auf-iphone-blockieren.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariapar.me/downtime/block-reddit-on-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ariapar.me/downtime/de/reddit-auf-iphone-blockieren.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariapar.me/downtime/block-reddit-on-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://ariapar.me/downtime/website-blocker-iphone.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariapar.me/downtime/website-blocker-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ariapar.me/downtime/de/websites-auf-iphone-blockieren.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariapar.me/downtime/website-blocker-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://ariapar.me/downtime/de/websites-auf-iphone-blockieren.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ariapar.me/downtime/website-blocker-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ariapar.me/downtime/de/websites-auf-iphone-blockieren.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ariapar.me/downtime/website-blocker-iphone.html"/>
   </url>
 </urlset>
