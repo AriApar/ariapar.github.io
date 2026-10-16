@@ -85,7 +85,7 @@ def localize_url(value):
     if value.startswith("assets/"):
         name = value[7:]
         return "../assets/" + ("de/" if name in SCREENSHOTS else "") + name
-    if value.startswith(("styles.css", "site.js")):
+    if value.startswith(("styles.css", "site.js", "analytics.js")):
         return "../" + value
     if value.startswith("https://apps.apple.com/us/"):
         return value.replace("/us/", "/de/", 1)
@@ -165,13 +165,23 @@ class GermanPage(HTMLParser):
 def main():
     script_version = hashlib.sha256((SITE / "site.js").read_bytes()).hexdigest()[:10]
     css_version = hashlib.sha256((SITE / "styles.css").read_bytes()).hexdigest()[:10]
+    analytics_version = hashlib.sha256((SITE / "analytics.js").read_bytes()).hexdigest()[:10]
+    measurement_id = json.loads((ROOT / "_data/downtime/analytics.json").read_text())["measurement_id"].strip()
+    if measurement_id and not re.fullmatch(r"G-[A-Z0-9]+", measurement_id):
+        raise SystemExit("Invalid GA4 Measurement ID in _data/downtime/analytics.json")
     output = {}
     for file, destination in ROUTES.items():
         source = (SITE / file).read_text()
         source = re.sub(r'  <!-- Language alternates -->.*?  <!-- /Language alternates -->\n', '', source, flags=re.S)
+        source = re.sub(r'  <!-- Website analytics -->.*?  <!-- /Website analytics -->\n', '', source, flags=re.S)
         source = re.sub(r'\s*<a class="language-switch"[^>]*>.*?</a>', '', source)
         source = re.sub(r'href="styles\.css(?:\?v=[^"]*)?"', f'href="styles.css?v={css_version}"', source)
         source = re.sub(r'src="site\.js(?:\?v=[^"]*)?"', f'src="site.js?v={script_version}"', source)
+        analytics = (f'  <!-- Website analytics -->\n'
+                     f'  <meta name="google-analytics-id" content="{measurement_id}">\n'
+                     f'  <script src="analytics.js?v={analytics_version}" defer></script>\n'
+                     f'  <!-- /Website analytics -->\n')
+        source = source.replace("</head>", analytics + "</head>")
         parser = GermanPage()
         parser.feed(source)
         german = "".join(parser.parts).replace('</head>', alternates(file) + '</head>')

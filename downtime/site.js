@@ -25,6 +25,7 @@ const shouldChangeLanguage = preferredLanguage !== pageLanguage
 const alternateLanguageLink = [...languageSwitches]
   .find(link => link.hreflang === preferredLanguage);
 if (shouldChangeLanguage && alternateLanguageLink) {
+  document.documentElement.dataset.languageRedirect = "true";
   const destination = new URL(alternateLanguageLink.href);
   destination.search = location.search;
   destination.hash = location.hash;
